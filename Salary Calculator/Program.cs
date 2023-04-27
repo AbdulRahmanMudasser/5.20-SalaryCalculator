@@ -77,11 +77,11 @@
 
         // Output results
         Console.WriteLine("\nPayroll Summary\n");
-        Console.WriteLine("  Employee Name                 Hours    Rate    Gross Pay");
-        Console.WriteLine("-----------------               -----    ----    ---------");
-        Console.WriteLine("{0,-17}      {1,5} {2,-4} {3,9:C}", employee1, hours1, rate1, pay1);
-        Console.WriteLine("{0,-17}      {1,5} {2,-4} {3,9:C}", employee2, hours2, rate2, pay2);
-        Console.WriteLine("{0,-17}      {1,5} {2,-4} {3,9:C}", employee3, hours3, rate3, pay3);
+        Console.WriteLine("  Employee Name          Hours    Rate    Gross Pay");
+        Console.WriteLine("-----------------        -----    ----    ---------");
+        Console.WriteLine("{0,-17}        {1,5}     {2,-4}   {3,9:C}", employee1, hours1, rate1, pay1);
+        Console.WriteLine("{0,-17}        {1,5}     {2,-4}   {3,9:C}", employee2, hours2, rate2, pay2);
+        Console.WriteLine("{0,-17}        {1,5}     {2,-4}   {3,9:C}", employee3, hours3, rate3, pay3);
     }
 }
 
